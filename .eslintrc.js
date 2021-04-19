@@ -151,9 +151,6 @@ module.exports = {
     'import/no-webpack-loader-syntax': 'error',
   },
   settings: {
-    jest: {
-      version: 24,
-    },
   },
   env: {
     es6: true,
@@ -164,14 +161,10 @@ module.exports = {
     node: true,
     worker: true,
     serviceworker: true,
-    jest: true,
-    'jest/globals': true,
   },
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: 'module',
-    project: 'tsconfig.json',
-    tsconfigRootDir: __dirname,
   },
   globals: {},
 }
