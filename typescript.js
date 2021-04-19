@@ -1,8 +1,6 @@
 // duy/typescript
 "use strict";
 
-var baseConfig = require('./baseConfig.js')
-
 module.exports = {
   plugins: [
     '@typescript-eslint',
@@ -13,7 +11,6 @@ module.exports = {
       extends: [
         'plugin:@typescript-eslint/recommended',
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
-        ...baseConfig,
       ],
       rules: {
         // TypeScript's `noFallthroughCasesInSwitch` option is more robust (#6906)

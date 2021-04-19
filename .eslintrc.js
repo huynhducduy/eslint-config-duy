@@ -1,16 +1,17 @@
 var restrictedGlobals = require('confusing-browser-globals')
 
-var baseConfig = require('./baseConfig.js')
-
 module.exports = {
   root: true,
   parser: '@babel/eslint-parser',
   plugins: [
     'import',
     'json',
-    // 'prettier', // We don't need this since we extends 'plugin:prettier/recommended' in baseConfig
   ],
-  extends: baseConfig,
+  extends: [
+    'plugin:json/recommended',
+    'plugin:prettier/recommended', // Always the last: https://github.com/prettier/eslint-plugin-prettier#recommended-configuration, with this we don't need to add `prettier` in plugins array
+    'prettier/prettier', // Fix some errors: https://github.com/prettier/eslint-plugin-prettier#arrow-body-style-and-prefer-arrow-callback-issue
+  ],
   rules: {
     'json/*': ['error', { allowComments: true }],
     // http://eslint.org/docs/rules/
