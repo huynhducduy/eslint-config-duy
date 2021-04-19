@@ -10,15 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/huynhducduy/eslint-config-duy.git"
   },
-  "files": [
-    "typescript.js",
-    "babel.js",
-    "flowtype.js",
-    "index.js",
-    "react.js",
-    "standard.js",
-    "vue.js"
-  ],
   "keywords": [
     "javascript",
     "eslint",
