@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-duy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Duy's Javascript Style - ESLint Shareable Config",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,8 @@
     "url": "https://github.com/huynhducduy/eslint-config-duy/issues"
   },
   "homepage": "https://github.com/huynhducduy/eslint-config-duy#readme",
-  "devDependencies": {
+  "dependencies": {
+    "confusing-browser-globals": "^1.0.10",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
     "eslint": "^7.24.0",
@@ -36,8 +37,5 @@
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-vue": "^7.9.0"
-  },
-  "dependencies": {
-    "confusing-browser-globals": "^1.0.10"
   }
 }
