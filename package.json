@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-duy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Duy's Javascript Style - ESLint Shareable Config",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
   "devDependencies": {
     "eslint": "^7.24.0"
   },
-  "peerDependencies": {
+  "dependencies": {
     "@babel/eslint-parser": "^7.13.14",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
