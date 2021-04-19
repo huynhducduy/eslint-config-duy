@@ -1,5 +1,4 @@
 // duy/vue
-
 "use strict";
 
 module.exports = {
