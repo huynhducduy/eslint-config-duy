@@ -19,6 +19,7 @@ module.exports = {
     "duy", // Base version, contain default rule for js, import, json
     "duy/typescript", // Typescript version
     "duy/react", // React, react-hook, jsx version
+    "duy/jest", // Jest, testing-library version
     "duy/prettier", //  Always the last, if you want to use eslint together with prettier
     // 'duy/vue', // Coming soon
   ],
