@@ -10,6 +10,7 @@ module.exports = {
       files: ['**/cypress/**/*'],
       extends: [
         'plugin:cypress/recommended',
+      ],
     },
   ],
 };
