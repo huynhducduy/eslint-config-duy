@@ -18,8 +18,14 @@ module.exports = {
   plugins: ['jest', 'testing-library'],
   overrides: [
     {
-      files: ['**/__tests__/**/*', '**/*.{spec,test}.*'],
+      files: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
       excludedFiles: ['**/cypress/**/*'],
+      extends: [
+        'plugin:testing-library/react',
+        'plugin:testing-library/dom',
+        'plugin:jest-dom/recommended',
+        'plugin:jest/recommended',
+      ],
       env: {
         'jest/globals': true,
       },
