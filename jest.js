@@ -19,6 +19,7 @@ module.exports = {
   overrides: [
     {
       files: ['**/__tests__/**/*', '**/*.{spec,test}.*'],
+      excludedFiles: ['**/cypress/**/*'],
       env: {
         'jest/globals': true,
       },
