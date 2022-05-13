@@ -3,9 +3,10 @@ module.exports = {
     {
       files: ['*.vue'],
       parser: 'vue-eslint-parser',
-      "parserOptions": {
-        "parser": "@babel/eslint-parser",
-        "sourceType": "module"
+      parserOptions: {
+        parser: "@babel/eslint-parser",
+        sourceType: "module",
+        extraFileExtensions: ['.vue'],
       },
       rules: {
         "vue/html-self-closing": 0,

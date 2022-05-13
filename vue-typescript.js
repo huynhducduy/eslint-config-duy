@@ -8,10 +8,9 @@ module.exports = {
   overrides: [
     {
       files: ['*.vue'],
-      parser: 'vue-eslint-parser',
-      "parserOptions": {
-        "parser": "@typescript-eslint/parser",
-        "sourceType": "module"
+      parserOptions: {
+        parser: "@typescript-eslint/parser",
+        sourceType: "module",
       },
     },
   ],

@@ -8,14 +8,9 @@ module.exports = {
   overrides: [
     {
       files: ['*.vue'],
-      parser: 'vue-eslint-parser',
-      "parserOptions": {
-        "parser": "@babel/eslint-parser",
-        "sourceType": "module"
-      },
       extends: [
         'plugin:vue/recommended',
-        './vue-base.js'
+        './vue-base.js',
       ],
     },
   ],
