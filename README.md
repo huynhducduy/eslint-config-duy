@@ -17,11 +17,12 @@ In your `eslintrc`
 module.exports = {
   extends: [
     "duy", // Base version, contain default rule for js, import, json
-    "duy/typescript", // Typescript version
+    "duy/typescript", // Typescript
     "duy/react", // React, react-hook, jsx version
     "duy/jest", // Jest, testing-library version
+    "duy/vue2", // or "duy/vue3" depends on your vuejs version
+    "duy/vue-typescript", // if you use vuejs together with typescript
     "duy/prettier", //  Always the last, if you want to use eslint together with prettier
-    // 'duy/vue', // Coming soon
   ],
   parserOptions: {
     // If you use `duy/typescript`, remember to add these config
