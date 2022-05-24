@@ -24,11 +24,6 @@ module.exports = {
     "duy/vue-typescript", // if you use vuejs together with typescript
     "duy/prettier", //  Always the last, if you want to use eslint together with prettier (prettier as eslint's rules, disable all eslint's style rules)
   ],
-  parserOptions: {
-    // If you use `duy/typescript`, remember to add these config
-    project: "tsconfig.json",
-    tsconfigRootDir: __dirname,
-  },
 };
 ```
 
