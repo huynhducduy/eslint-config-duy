@@ -30,10 +30,6 @@ module.exports = {
   // Remember to add these config if you use typescript,
   parserOptions: {
     tsconfigRootDir: __dirname,
-    ecmaVersion: 'latest',
-    ecmaFeatures: {
-      jsx: true,
-    }
   },
 };
 ```

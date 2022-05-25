@@ -70,5 +70,9 @@ module.exports = {
   ],
   parserOptions: {
     project: 'tsconfig.json',
+    ecmaVersion: 'latest',
+    ecmaFeatures: {
+      jsx: true,
+    }
   }
 };
