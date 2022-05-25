@@ -50,7 +50,8 @@
   },
   "peerDependencies": {
     "react": "^16",
-    "typescript": "^4"
+    "typescript": "^4",
+    "eslint": "^8"
   },
   "peerDependenciesMeta": {
     "typescript": {

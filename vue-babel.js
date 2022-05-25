@@ -1,4 +1,4 @@
-// duy/vue-typescript
+// duy/vue-babel
 "use strict";
 
 // Fix eslint shareable config (https://github.com/eslint/eslint/issues/3458)
@@ -9,8 +9,9 @@ module.exports = {
     {
       files: ['*.vue'],
       parserOptions: {
-        parser: "@typescript-eslint/parser",
-        sourceType: "module",
+        parser: {
+            "js": "@babel/eslint-parser",
+        },
       },
     },
   ],

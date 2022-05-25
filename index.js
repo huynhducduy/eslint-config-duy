@@ -2,7 +2,16 @@ var restrictedGlobals = require('confusing-browser-globals')
 
 module.exports = {
   root: true,
-  parser: '@babel/eslint-parser',
+  parser: 'espree',
+  parserOptions: {
+    sourceType: 'module',
+    // These configs are for espree parser
+    ecmaVersion: 'latest',
+    ecmaFeatures: {
+      jsx: true,
+      impliedStrict: true,
+    }
+  },
   plugins: [
     'import',
     'json',
@@ -165,10 +174,6 @@ module.exports = {
     worker: true,
     serviceworker: true,
     webextensions: true,
-  },
-  parserOptions: {
-    ecmaVersion: 2022,
-    sourceType: 'module',
   },
   globals: {},
 }

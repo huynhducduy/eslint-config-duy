@@ -17,15 +17,24 @@ In your `.eslintrc.js`
 ```js
 module.exports = {
   extends: [
-    "duy", // Base version, contain default rule for js, import, json
+    "duy", // Base version, using espree parser (default parser of eslint), contain default rule for js, import, json
+    "duy/babel", // If you use babel to transform your codebase,
     "duy/typescript", // Add support for Typescript
     "duy/react", // React, react-hook, jsx
     "duy/jest", // Jest, testing-library
     "duy/cypress", // Cypress
     "duy/vue3", // or "duy/vue2" depends on your vuejs version
-    "duy/vue-typescript", // if you use vuejs together with typescript
+    "duy/vue-babel", // If you using vue with babel
     "duy/prettier", //  Always the last, if you want to use eslint together with prettier (prettier as eslint's rules, disable all eslint's style rules)
   ],
+  // Remember to add these config if you use typescript,
+  parserOptions: {
+    tsconfigRootDir: __dirname,
+    ecmaVersion: 'latest',
+    ecmaFeatures: {
+      jsx: true,
+    }
+  },
 };
 ```
 

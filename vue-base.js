@@ -4,7 +4,10 @@ module.exports = {
       files: ['*.vue'],
       parser: 'vue-eslint-parser',
       parserOptions: {
-        parser: "@babel/eslint-parser",
+        parser: {
+            "js": "espree",
+            "ts": "@typescript-eslint/parser",
+        },
         sourceType: "module",
         extraFileExtensions: ['.vue'],
       },
