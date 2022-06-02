@@ -7,10 +7,16 @@ module.exports = {
         parser: {
             "js": "espree",
             "ts": "@typescript-eslint/parser",
+            // "<template>": "espree",
+            // "vueFeatures": {
+            //   "filter": true,
+            //   "interpolationAsNonHTML": true,
+            //   "styleCSSVariableInjection": true,
+            // },
+            // "templateTokenizer": {
+            //   "pug": "vue-eslint-parser-template-tokenizer-pug",
+            // }
         },
-        project: 'tsconfig.json',
-        sourceType: "module",
-        extraFileExtensions: ['.vue'],
       },
       rules: {
         "vue/html-self-closing": 0,
