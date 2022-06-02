@@ -22,6 +22,7 @@ module.exports = {
       excludedFiles: ['**/cypress/**/*'],
       extends: [
         'plugin:testing-library/react',
+        'plugin:testing-library/vue',
         'plugin:testing-library/dom',
         'plugin:jest-dom/recommended',
         'plugin:jest/recommended',
