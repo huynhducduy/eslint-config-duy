@@ -8,6 +8,7 @@ module.exports = {
             "js": "espree",
             "ts": "@typescript-eslint/parser",
         },
+        project: 'tsconfig.json',
         sourceType: "module",
         extraFileExtensions: ['.vue'],
       },

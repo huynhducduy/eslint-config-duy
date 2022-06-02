@@ -5,7 +5,6 @@ module.exports = {
   parser: 'espree',
   parserOptions: {
     sourceType: 'module',
-    // These configs are for espree parser
     ecmaVersion: 'latest',
     ecmaFeatures: {
       jsx: true,
