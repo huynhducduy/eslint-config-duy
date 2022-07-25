@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-duy",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Duy's Javascript Style - ESLint Shareable Config",
   "main": "index.js",
   "scripts": {
@@ -72,6 +72,14 @@
     },
     "@babel/core": {
       "optional": true
+    }
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@babel/core",
+        "prettier"
+      ]
     }
   }
 }
