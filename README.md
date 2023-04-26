@@ -40,7 +40,7 @@ Some stylistic rules in case you need it (and don't need prettier): (please make
 {
   'semi': ['error', 'never'],
   'indent': ['error', 2, { 'SwitchCase': 1, 'VariableDeclarator': 1 }],
-  '@typescript-eslint/indent': ['error', 2]
+  '@typescript-eslint/indent': ['error', 2],
   'quotes': ['error', 'single', { 'avoidEscape': true }],
   'quote-props': ['error', 'consistent-as-needed'],
   'jsx-quotes': ['error', 'prefer-single'],
@@ -53,16 +53,16 @@ Some stylistic rules in case you need it (and don't need prettier): (please make
   'brace-style': 'error',
   'arrow-parens': ['error', 'always'],
   'key-spacing': [2, {
-      'singleLine': {
-          'beforeColon': false,
-          'afterColon': true
-      },
-      'multiLine': {
-          'beforeColon': false,
-          'afterColon': true,
-          'align': 'colon'
-      }
-    }],
+    'singleLine': {
+        'beforeColon': false,
+        'afterColon': true
+    },
+    'multiLine': {
+        'beforeColon': false,
+        'afterColon': true,
+        'align': 'colon'
+    }
+  }],
 }
 ```
 
