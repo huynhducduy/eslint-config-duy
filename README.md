@@ -68,6 +68,7 @@ Some stylistic rules in case you need it (and don't need prettier): (please make
 
 ## Todo
 
+- eslint-plugin-unicorn
 - Support Preact, SolidJS, Svelte
 - a11y
 - react-native
