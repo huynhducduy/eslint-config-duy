@@ -68,7 +68,10 @@ Some stylistic rules in case you need it (and don't need prettier): (please make
 
 ## Todo
 
+- eslint-plugin-eslint-comments
 - eslint-plugin-unicorn
+- eslint-plugin-no-use-extend-native
+- eslint-plugin-n
 - Support Preact, SolidJS, Svelte
 - a11y
 - react-native
