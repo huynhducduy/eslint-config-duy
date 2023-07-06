@@ -68,6 +68,7 @@ Some stylistic rules in case you need it (and don't need prettier): (please make
 
 ## Todo
 
+- eslint-plugin-jest-formatting
 - eslint-plugin-eslint-comments
 - eslint-plugin-unicorn
 - eslint-plugin-no-use-extend-native
