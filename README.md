@@ -65,24 +65,3 @@ Some stylistic rules in case you need it (and don't need prettier): (please make
   }],
 }
 ```
-
-## Todo
-
-- eslint-plugin-jest-formatting
-- eslint-plugin-eslint-comments
-- eslint-plugin-unicorn
-- eslint-plugin-no-use-extend-native
-- eslint-plugin-n
-- Support Preact, SolidJS, Svelte
-- a11y
-- react-native
-- promise
-- node
-- graphql
-- html
-- compat
-- security
-- fp
-- jsdoc
-- es?
-- eslint-comments?
